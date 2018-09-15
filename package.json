@@ -1,0 +1,39 @@
+{
+  "name": "ryans-portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "nodemon src/app --exec 'yarn lint && node'",
+    "lint": "eslint src"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bcrypt": "^3.0.0",
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.2.12"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-eslint": "^3.0.1",
+    "@vue/eslint-config-standard": "^3.0.1",
+    "eslint": "^5.5.0",
+    "eslint-plugin-vue": "^4.7.1",
+    "nodemon": "^1.18.4"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "@vue/standard"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  }
+}
