@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "nodemon src/app --exec 'yarn lint && node'",
+    "start": "nodemon src/app",
     "lint": "eslint src"
   },
   "dependencies": {
